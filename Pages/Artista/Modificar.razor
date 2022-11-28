@@ -1,0 +1,71 @@
+﻿@page "/artistas/editar/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService _localStorageService
+
+<MudText Typo="Typo.h2" Class="ml">Editar Artista</MudText>
+
+<MudGrid>
+    <MudItem xs="12" sm="7">
+        <MudPaper Class="pa-4">
+            <EditForm Model="artista" OnValidSubmit="OnValidSubmit">
+                <DataAnnotationsValidator />
+                <MudCard>
+                    <MudCardContent>
+                        <MudTextField Label="Nombre" @bind-Value="artista.Nombre" For="@(() => artista.Nombre)" />
+                        <MudTextField Label="Imagen" @bind-Value="artista.Imagen" For="@(() => artista.Imagen)" />
+                        <MudDivider />
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Guardar Cambios</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </EditForm>
+            @if (showLeaveAlert)
+            {
+                    <MudAlert Severity="Severity.Error" ContentAlignment="HorizontalAlignment.Center" ShowCloseIcon="true" CloseIconClicked="(() => CloseMe(true))">Ocurrió un Problema.</MudAlert>
+            }
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    private bool showLeaveAlert = false;
+    Artista artista = new Artista();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Http.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Bearer", await _localStorageService.GetItemAsync<string>("token"));
+
+        var resp = await Http.GetStringAsync("artista/" + id);
+        artista = JsonSerializer.Deserialize<Artista>(resp, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    }
+
+    private async Task OnValidSubmit(EditContext context)
+    {
+        await saveChanges();
+    }
+
+    private async Task saveChanges()
+    {
+
+        var httpResponse = await Http.PutAsJsonAsync<Artista>("artista/" + artista.Id, artista);
+         
+        if (!(httpResponse.StatusCode == System.Net.HttpStatusCode.OK))
+        {
+            showLeaveAlert = true;
+        }
+        else
+        {
+            NavigationManager.NavigateTo("artistas/index");
+        }
+    }
+
+    private void CloseMe(bool value)
+    {
+        showLeaveAlert = false;
+    }
+}

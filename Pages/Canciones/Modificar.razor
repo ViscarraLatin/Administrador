@@ -1,0 +1,106 @@
+﻿@page "/canciones/editar/{id:int}"
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService _localStorageService
+
+<MudText Typo="Typo.h2" Class="ml">Editar cancion</MudText>
+
+<MudGrid>
+    <MudItem xs="12" sm="7">
+        <MudPaper Class="pa-4">
+            <EditForm Model="canciones" OnValidSubmit="OnValidSubmit">
+                <DataAnnotationsValidator />
+                <MudCard>
+                    <MudCardContent>
+                        <MudTextField Label="Id_Artista" @bind-Value="canciones.Id_Artista" For="@(() => canciones.Id_Artista)" />
+                        <MudTextField Label="Id_Genero" @bind-Value="canciones.Id_Genero" For="@(() => canciones.Id_Genero)" />
+                        <MudTextField Label="Titulo" @bind-Value="canciones.Titulo" For="@(() => canciones.Titulo)" />
+                        <MudTextField Label="Imagen" @bind-Value="canciones.Imagen" For="@(() => canciones.Imagen)" />
+                        <MudTextField Label="Cancion" @bind-Value="canciones.Cancion" For="@(() => canciones.Cancion)" />
+                        <MudSelect Variant="Variant.Outlined" Label="Artista" AnchorOrigin="Origin.BottomCenter"
+                                   @bind-Value="canciones.Id_Artista" For="@(() => canciones.Id_Artista)">
+                            @foreach (var item in artista)
+                            {
+                                <MudSelectItem Value="@item.Id">@item.Nombre</MudSelectItem>
+                            }
+                        </MudSelect>
+                        <MudSelect Variant="Variant.Outlined" Label="Genero" AnchorOrigin="Origin.BottomCenter"
+                                   @bind-Value="canciones.Id_Genero" For="@(() => canciones.Id_Genero)">
+                            @foreach (var item in generos)
+                            {
+                                <MudSelectItem Value="@item.Id">@item.Nombre</MudSelectItem>
+
+
+                            }
+                        </MudSelect>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Guardar cambios</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </EditForm>
+            @if (showLeaveAlert)
+            {
+                <MudAlert Severity="Severity.Error" ContentAlignment="HorizontalAlignment.Center" ShowCloseIcon="true" CloseIconClicked="(() => CloseMe(true))">Ocurrió un problema.</MudAlert>
+            }
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private IEnumerable<Artista> artista = new List<Artista>();
+    private IEnumerable<Genero> generos = new List<Genero>();
+    private bool showLeaveAlert = false;
+    Canciones canciones = new Canciones();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Http.DefaultRequestHeaders.Authorization =
+        new AuthenticationHeaderValue("Bearer", await _localStorageService.GetItemAsync<string>("token"));
+       
+        await getartista();
+        await getgenero();
+        var resp = await Http.GetStringAsync("canciones/" + id);
+        canciones = JsonSerializer.Deserialize<Canciones>(resp, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    }
+
+    private async Task OnValidSubmit(EditContext context)
+    {
+        await saveChanges();
+    }
+
+    private async Task saveChanges()
+    {
+        var httpResponse = await Http.PutAsJsonAsync<Canciones>("canciones/" + canciones.Id, canciones);
+
+        if (!(httpResponse.StatusCode == System.Net.HttpStatusCode.OK))
+        {
+            showLeaveAlert = true;
+        }
+        else
+        {
+            NavigationManager.NavigateTo("canciones/index");
+        }
+    }
+
+    private void CloseMe(bool value)
+    {
+        showLeaveAlert = false;
+    }
+
+    private async Task getartista()
+    {
+        var httpResponse = await Http.GetStringAsync("Artista");
+        artista = JsonSerializer.Deserialize<IEnumerable<Artista>>(httpResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    }
+    private async Task getgenero()
+    {
+        var httpResponse = await Http.GetStringAsync("genero");
+        generos = JsonSerializer.Deserialize<IEnumerable<Genero>>(httpResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    }
+}
+

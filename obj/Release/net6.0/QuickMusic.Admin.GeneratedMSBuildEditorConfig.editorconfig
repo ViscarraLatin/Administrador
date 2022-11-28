@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = QuickMusic.Admin
+build_property.RootNamespace = QuickMusic.Admin
+build_property.ProjectDir = C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.Admin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Artista/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aXN0YVxBZ3JlZ2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Artista/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aXN0YVxEZXRhbGxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Artista/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aXN0YVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Artista/Modificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aXN0YVxNb2RpZmljYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Canciones/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXEFncmVnYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Canciones/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXERldGFsbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Canciones/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Canciones/Modificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXE1vZGlmaWNhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Genero/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvXEFncmVnYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Genero/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvXERldGFsbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Genero/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Genero/Modificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJvXE1vZGlmaWNhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Rol/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEFncmVnYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Rol/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXERldGFsbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Rol/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Rol/Modificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXE1vZGlmaWNhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Usuario/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xBZ3JlZ2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Usuario/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xEZXRhbGxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Usuario/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Pages/Usuario/Modificar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xNb2RpZmljYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fnljfsgrnq
+
+[C:/Users/KATHYA VISCARRA/OneDrive/Escritorio/QuickMusic.Admin/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2ij7643fxg
