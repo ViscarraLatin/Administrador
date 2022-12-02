@@ -877,11 +877,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-RE79nlhLXJH0tRMx7Z9fXTvnZsic+HUtToJg6iqciQU=",
+      "hash": "sha256-KuikvKpoo6tdde0ZkFzBRpaTUmrcyngeXPVNCv\/A\/mE=",
       "url": "_framework\/QuickMusic.Admin.dll"
     },
     {
-      "hash": "sha256-6KhLbOtKY9P6+GdNAMPepKauybvPbsh4spumB4venJw=",
+      "hash": "sha256-82EOj9mhdQtoDo3dvOSZI+oF9AQH5isdasTna8P\/omM=",
       "url": "_framework\/QuickMusic.Admin.pdb"
     },
     {
@@ -889,7 +889,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-DGqqNBNV3jIVDARzEN9WW7HFENheVe1XNJ4Lt8kcajo=",
+      "hash": "sha256-YH8exdbgtE8evaadVTxZQ1IohYFe9CWFgzJOx5TcjMM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,5 +901,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "f9cVLQqj"
+  "version": "6Q4ektcS"
 };

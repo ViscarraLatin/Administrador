@@ -199,13 +199,13 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "QuickMusic.Admin.dll": "sha256-BcAKzQI1uVNKEzJ3KzMQaAZRwklR14soiOAEeYZRdf4="
+      "QuickMusic.Admin.dll": "sha256-KuikvKpoo6tdde0ZkFzBRpaTUmrcyngeXPVNCv\/A\/mE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "QuickMusic.Admin.pdb": "sha256-burz2nYz1HX5qCi\/QaUCma9h8U+mX2qFE+Lgw9ZSPeY="
+      "QuickMusic.Admin.pdb": "sha256-82EOj9mhdQtoDo3dvOSZI+oF9AQH5isdasTna8P\/omM="
     },
     "runtime": {
       "dotnet.6.0.11.fdnfu01a28.js": "sha256-F30V+6jU3jwJYFZoLuwMAqzTiOXu6q7zGgOdjYBofDI=",
