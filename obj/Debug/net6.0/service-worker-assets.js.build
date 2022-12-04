@@ -61,6 +61,22 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-yqhS6V82kN9o8zB1sAICpX0X8bb6Q7hlqRBW++tapuw=",
+      "url": "Imagen\/Iconmenu.png"
+    },
+    {
+      "hash": "sha256-u52FwljBzKYqAES3EhCqrk0+owDVUh7\/iAJ3EGn+xp0=",
+      "url": "Imagen\/login.png"
+    },
+    {
+      "hash": "sha256-P0PtovCP6e5mb7fl\/Pvee\/mzQ6r0PN77iUFylZAJaRo=",
+      "url": "Imagen\/menu.png"
+    },
+    {
+      "hash": "sha256-B\/jJJSiTBa8Y+t0GP\/icyFU0PwqSwTxl7UGHS5u3Q5c=",
+      "url": "Imagen\/num.png"
+    },
+    {
       "hash": "sha256-dULulxaTG98cZSWOfx2tPsPHDCMDiwBT\/jp3NFf4bwg=",
       "url": "Imagen\/QuickMusic (1).png"
     },
@@ -877,11 +893,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-KuikvKpoo6tdde0ZkFzBRpaTUmrcyngeXPVNCv\/A\/mE=",
+      "hash": "sha256-ha44h3rFw8fPhAVNrSuJIRzETrO6EkGtdbaivcK39zQ=",
       "url": "_framework\/QuickMusic.Admin.dll"
     },
     {
-      "hash": "sha256-82EOj9mhdQtoDo3dvOSZI+oF9AQH5isdasTna8P\/omM=",
+      "hash": "sha256-wR59wwEmnRsnS1\/Xhr831Qz7hdDTHn\/Ip\/PqLyLmAkE=",
       "url": "_framework\/QuickMusic.Admin.pdb"
     },
     {
@@ -889,7 +905,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-YH8exdbgtE8evaadVTxZQ1IohYFe9CWFgzJOx5TcjMM=",
+      "hash": "sha256-s+AV3f8IBIBu0tfUD7PA+Ph+CgNaDMOZOJFj32QGemM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -901,5 +917,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "6Q4ektcS"
+  "version": "cTwYMWsC"
 };

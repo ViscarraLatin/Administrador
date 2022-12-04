@@ -21,8 +21,24 @@
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
+      "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\Imagen\\Iconmenu.png",
+      "PackagePath": "staticwebassets\\Imagen\\Iconmenu.png"
+    },
+    {
       "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\Imagen\\QuickMusic (1).png",
       "PackagePath": "staticwebassets\\Imagen\\QuickMusic (1).png"
+    },
+    {
+      "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\Imagen\\login.png",
+      "PackagePath": "staticwebassets\\Imagen\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\Imagen\\menu.png",
+      "PackagePath": "staticwebassets\\Imagen\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\Imagen\\num.png",
+      "PackagePath": "staticwebassets\\Imagen\\num.png"
     },
     {
       "Id": "C:\\Users\\KATHYA VISCARRA\\OneDrive\\Escritorio\\QuickMusic.Admin\\wwwroot\\css\\app.css",
